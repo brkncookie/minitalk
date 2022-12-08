@@ -1,0 +1,9 @@
+Client Logic:
+	-simply loop through the string and decode every character into binary to send it with either SIGUSR1/SIGUSR2 to the server.
+	-the decoding will be done using the & bitwise operator testing every bit in the character.
+	-after that is done implement a singal handler that recieves the messages acknowledgement from the server.
+Server  Logic:
+	-implement a signal handler that decode the binary data into a character.
+	-loop on a puase() call while waiting for the whole string to be recieved.
+
+	

@@ -1,0 +1,4 @@
+-know every function functionality. (y)
+-figure out a way to send strings between two process using signals. (y)
+-revisit bitwise operators. (y)
+-figure out the logic and code it.
